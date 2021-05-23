@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import { GhostTester, GhostTesterRandom } from '../page-object/tags-random-page';
+import { GhostTesterRandom } from '../page-object/tags-random-page';
 import config from '../config'
 import { TagsRandomData } from '../page-object/tags-api-random';
 

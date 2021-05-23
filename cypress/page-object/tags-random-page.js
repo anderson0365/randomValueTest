@@ -1,11 +1,9 @@
 export class GhostTesterRandom{
-    constructor(email, password, startUrl, dateObject, version){
+    constructor(email, password, startUrl, dateObject){
         this.email = email;
         this.password = password;
         this.startUrl = startUrl;
         this.dateObject = dateObject;
-        this.version=version;
-        this.stepCounter = 0;
     }
 
     initNavigation(){
