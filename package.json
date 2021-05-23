@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "cypress": "^7.2.0",
+    "faker": "^5.5.3",
     "randexp": "^0.5.3"
   },
   "devDependencies": {
