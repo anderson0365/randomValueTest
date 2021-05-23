@@ -1,7 +1,5 @@
-# randomValueTest
+# Pruebas con valores aleatorios 
 Pruebas de aplicacion ghost v3.42.5 con valores aleatorios
-
-
 
 ## Instrucciones de ejecucion
 
