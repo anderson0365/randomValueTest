@@ -14,7 +14,7 @@ export class TodoPage {
     cy.get("input[name='password']").type(password, { force: true });
     cy.wait(1000);
 
-    this.clickBoton(".login", 2000);
+    this.clickBoton(".login", 12000);
 
     cy.on("uncaught:exception", (err, runnable) => {
       return false;
