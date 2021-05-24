@@ -34,4 +34,8 @@ export class TodoPage {
     cy.get(element).click({ force: true });
     cy.get(element).invoke("text", text, { force: true });
   }
+
+  clearElement(element) {
+    cy.get(element).clear();
+  }
 }

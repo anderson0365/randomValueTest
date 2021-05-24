@@ -1,5 +1,5 @@
 export default {
-    "email": "andre0190@gmail.com",
-    "password": "0123456789",
-    "version": "3.42.5"
-  }
+  email: "miguelcamargo9@gmail.com",
+  password: "RP$*-vkmhbT2Rj4",
+  version: "3.42.5",
+};
