@@ -26,3 +26,14 @@ El archivo “<b>cypress/integration/tag-apriori.spec.js</b>” contiene los esc
 El archivo “<b>cypress/integration/tag-pseudo.spec.js</b>” contiene los escenarios de prueba programados que emplean esta modalidad. Cada vez que se ejecutan estas pruebas, la aplicación consulta automáticamente el API en la URL https://my.api.mockaroo.com/api_rand.json?key=5d1a8540 para obtener valores aleatorios nuevos para los escenarios.
 #### Datos aleatorios:
 El archivo “<b>cypress/integration/tag-aleatorio.spec.js</b>” contiene los escenarios de prueba programados que emplean esta modalidad. Se emplea la librería “randexp” para la generación de datos aleatorios. Para más información sobre esta librería, consulte la siguiente URL: http://fent.github.io/randexp.js/
+
+### Pruebas asociadas a la funcionalidad crear page:
+Para los escenarios asociados a esta funcionalidad de generaron datos de 3 formas.
+#### Datos a priori:
+El archivo “<b>cypress/integration/page-apriori.spec.js</b>” contiene los escenarios de prueba programados que emplean esta estrategia. El archivo de los datos de la prueba es “<b>apriori/pages_data.json</b>”. Si desea cambiar este archivo JSON por valores nuevos, puede tomar nuevos datos de la [URL](https://api.mockaroo.com/api/526342f0?count=1&key=1432e6b0), lo cual descargará un archivo, con el que podrá reemplazar el contenido del archivo “<b>apriori/pages_data.json</b>”.
+
+#### Datos pseudo aleatorios:
+El archivo “<b>cypress/integration/page-pseudo.spec.js</b>” contiene los escenarios de prueba programados que emplean esta estrategia. Cada vez que se ejecutan estas pruebas, la aplicación consulta automáticamente el API en la [URL](https://my.api.mockaroo.com/pseudo.json?key=1432e6b0) para obtener valores aleatorios nuevos para los escenarios.
+
+#### Datos aleatorios:
+El archivo “<b>cypress/integration/page-aleatorio.spec.js</b>” contiene los escenarios de prueba programados que emplean esta estrategia. Se emplea la librería “faker” para la generación de datos aleatorios. Para más información sobre esta librería, consulte la siguiente [URL](https://www.npmjs.com/package/Faker).
