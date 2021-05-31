@@ -1,4 +1,4 @@
-# Pruebas con valores aleatorios
+# Pruebas de Validacion de Datos
 
 Pruebas de aplicacion ghost v3.42.5 con valores aleatorios
 
